@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Full Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="overlay2">
+        <nav>
+            <ul>
+                <li><a href="begin1.html"><font color="yellow" class="active">Главная</font></a></li>
+                <li><a href="./news.html"> <font color="yellow"> Новости спортивной моды</font></a></li>
+                <li><a href="./table.html"> <font color ="yellow">Карта магазинов</font></a> </li>
+                <li><a href="./form.html"> <font color ="yellow">Форма</font></a> </li>
+                <li><a href="./passport.html"> <font color ="yellow"><b><u>Паспорт</u></b></font></a> </li>
+                <li><a href="./task.html"> <font color="yellow">Алгоритмическая задача</font> </a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="background-passport">
+        <div class="content">
+          <div class="passport-container">
+            <img src="./passport.foto.jpg">
+    
+            <img id="photo" src="./foto.webp" alt="Фотография" title="Фотография">
+    
+            <div class="text" id="issued">ГУ МВД РОССИИ ПО Г. МОСКВЕ</div>
+            <div class="text" id="surname">САМОУКОВА</div>
+            <div class="text" id="name">СОФЬЯ</div>
+            <div class="text" id="father">АЛЕКСЕЕВНА</div>
+            <div class="text" id="gender">ЖЕН</div>
+            <div class="text" id="data"> 09.06.2005</div>
+            <div class="text" id="birthplace">ГОРОД МОСКВА</div>
+        </div>
+    
+        <div class="button-container">
+            <button id="translateButton">Поменять</button> <br><br>
+            <img class="skrin" src="./Снимок экрана 2024-11-05 174801.png">
+        </div>
+        
+        <style>
+          .skrin{
+            width: 600px;
+            height: auto; 
+          }
+          .passport-container {
+            position: relative;
+            display: inline-block;
+        }
+        .passport-container img {
+            width: 600px;
+            height: auto;
+        }
+        .text {
+            position: absolute;
+            color: black;
+            font-size: 1.2em;
+        }
+        #issued {
+            top: 90px;
+            left: 170px;
+        }
+        #surname {
+            top: 468px;
+            left: 350px;
+        }
+        #name {
+            top: 530px;
+            left: 340px;
+        }
+        #father {
+            top: 565px;
+            left: 325px;
+        }
+        #gender {
+            top: 596px;
+            left: 222px;
+        }
+        #data{
+          top: 596px;
+          left: 350px
+        }
+        #birthplace {
+            top: 630px;
+            left: 340px;
+        }
+        #photo {
+            position: absolute;
+            top: 494px;
+            left: 25px;
+            width: 168px;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0f6213;
+            color: white;
+            border: none;
+            border-radius: 5px; 
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        </style>
+</body>
+<script src="./passport.js"></script>
+</html>
