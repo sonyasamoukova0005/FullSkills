@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Full Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="overlay2">
+        <nav>
+            <ul>
+                <li><a href="begin1.html"><font color="yellow" class="active">Главная</font></a></li>
+                <li><a href="./news.html"> <font color="yellow"> Новости спортивной моды</font></a></li>
+                <li><a href="./table.html"> <font color ="yellow">Карта магазинов</font></a> </li>
+                <li><a href="./form.html"> <font color ="yellow">Форма</font></a> </li>
+                <li><a href="./passport.html"> <font color ="yellow">Паспорт</font></a> </li>
+                <li><a href="./task.html"> <font color="yellow"><b><u>Алгоритмическая задача</u></b></font> </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="background-task">
+        <div class="content">
+            <div class="container">
+                <h4> Задача: <br> Известна денежная сумма. Разменять её купюрами 500, 100, 10 и монетой 2 руб., если это возможно.</h4> <br><br>
+                <h2>Введите вашу денежную сумму:</h2> <br> <br>
+    
+    <form target="_blank" id="formChange">
+        <input type="number" id="moneyInput" name="moneyInput" value="1234"> <br> <br>
+        
+        <button type="button" onclick="calculateChange()">Вычислить</button>
+        <button type="button" onclick="submitForm()">Отправить</button>
+        <button type="button" onclick="clearForm()">Очистить</button>
+    </form>
+    
+    <p><font size=+2 >Результат: </font></p>
+    <p id="result"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../task.js"></script>
+
+
+</html>

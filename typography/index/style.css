@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    top: 0%;
+    height: 100%;
+    /* Задаем высоту на 100% */
+}
+
+p {
+    margin: 20px 0;
+    /* Отступы сверху и снизу у параграфов */
+}
+
+.background {
+    background-image: url('./фон.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 206vh;
+    display: flex;
+    /* Используем flexbox для центрирования содержимого */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+}
+.background-news {
+    background-image: url('./фон.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 318vh;
+    display: flex;
+    /* Используем flexbox для центрирования содержимого */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+}
+.background-table {
+    background-image: url('./фон.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 117vh;
+    display: flex;
+    /* Используем flexbox для центрирования содержимого */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+}
+.background-form {
+    background-image: url('./фон.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 135vh;
+    display: flex;
+    /* Используем flexbox для центрирования содержимого */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+}
+.background-task {
+    background-image: url('./фон.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    /* Используем flexbox для центрирования содержимого */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+}
+.background-passport {
+    background-image: url('./фон.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 160vh;
+    display: flex;
+    /* Используем flexbox для центрирования содержимого */
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    align-items: center;
+    /* Центрирование по вертикали */
+}
+.content {
+    z-index: 1;
+    /*передний план*/
+    color: white;
+    /* Цвет текста */
+    max-width: 800px;
+    /* Ограничиваем максимальную ширину */
+    margin: 20px auto;
+    /* Центрируем контейнер и добавляем отступы сверху и снизу */
+    padding: 20px;
+    /* Внутренние отступы с краю */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Фон для визуализации */
+
+
+}
+
+.overlay2
+
+/*подложка для навигации*/
+    {
+    position: fixed;
+    /* Фиксированное позиционирование */
+    top: 0;
+    /* Находится вверху */
+    left: 0;
+    /* Находится на левом краю */
+    width: 100%;
+    /* Занимает всю ширину */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Полупрозрачный фон */
+    color: white;
+    /* Цвет текста */
+    z-index: 1000;
+    /* Находится поверх других элементов */
+    padding: 10px 20px;
+    /* Отступы */
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    /* Центрируем текст */
+    padding: 0;
+    /* Убираем отступы у списка */
+    margin: 0;
+    /* Убираем внешние отступы у списка */
+}
+
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: red;
+    font-size: 20px;
+}
+
+.nav li a:active {
+    color: blue;
+    font-size: 35px;
+}
+
+.align {
+
+    padding-right: 1000 px;
+    /* Внутренние отступы */
+    text-align: left;
+    /* Выравнивание текста по левому краю */
+}
+.news {
+    max-width: 90%; /* Ограничиваем ширину изображения до 100% от подложки */
+    max-height: 90%; /* Ограничиваем высоту изображения до 100% от подложки */
+    display: block; /* Убираем отступы под изображением */
+    margin: auto; /* Автоматические отступы дляцентровки */
+}
+
+.back-to-top {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background-color: #0f6213;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.image-comment {
+    margin-top: 10px; /* Отступ сверху для комментария */
+    font-size: 16px; /* Размер шрифта комментария */
+    color: #851e1e; /* Цвет текста комментария */
+    text-align: center;
+}
+.thumbnail {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+.cat-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-image: url('./t.back.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 1.2em;
+}
+table img {
+    width: 200px;
+    height: auto;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="password"]{
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="submit"], input[type="reset"]{
+    background-color:  #0f6213 ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+input[type="radio"], input[type="checkbox"], select {
+    position: relative;
+    padding-left: 30px; /* Отступ для метки */
+    cursor: pointer;
+    
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    background-color: #0f6213 ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
